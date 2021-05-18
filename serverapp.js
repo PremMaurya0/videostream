@@ -30,9 +30,9 @@ app.get('/', function(req, res) {
 app.use('/api', videos);
 
 
-http.listen(3002,(err)=>{
+http.listen(5002,(err)=>{
   if(err) throw err;
-    console.log('Listing To port http://localhost:3002');
+    console.log('Listing To port http://localhost:5002');
 })
 
 
